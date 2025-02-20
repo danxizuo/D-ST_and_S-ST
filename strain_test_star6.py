@@ -7,7 +7,7 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from PIL import Image
 import matplotlib.pyplot as plt
-from Swin_Unet_strain_22222 import SwinTransformerSys  # Ensure this module is accessible
+from strain_model import SwinTransformerSys  # Ensure this module is accessible
 
 
 def forward_and_save_results(model, dataloader, image_size, patch_size, stride, output_folder, device='cuda',
