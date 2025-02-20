@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib import font_manager
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
-from Swin_Unet_V21_236632_revised import SwinTransformerSys
+from displacement_model import SwinTransformerSys
 
 warnings.filterwarnings("ignore", category=UserWarning, module="torch")
 
